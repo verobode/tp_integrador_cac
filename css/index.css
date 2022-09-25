@@ -1,0 +1,22 @@
+.brillo {
+    filter:brightness(0.4);
+}
+.text {
+    text-align: center;
+    margin-top: 2%;
+}
+
+.textochico {
+    font-size: small;
+}
+
+.textoform {
+    color: rgb(131, 131, 131);
+    font-size: small;
+}
+
+.footerclass {
+    height: 10vh;
+    background-color: rgb(37, 67, 75);
+    padding-top: 20px;
+}

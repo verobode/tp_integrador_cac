@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./bootstrap/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/index.css">
+    <title>TP integrador</title>
+</head>
+<body>
+  <nav class="navbar navbar-dark navbar-expand-lg bg-dark">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">
+        <img src="./img/codoacodo.png" alt="Logo" width="30" height="24" class="d-inline-block align-self-center">Conf Bs As
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+        <div class="navbar-nav ms-auto">
+          <a class="nav-link active" aria-current="page" href="#">La conferencia</a>
+          <a class="nav-link" href="#">Los oradores</a>
+          <a class="nav-link" href="#">El lugar y la fecha</a>
+          <a class="nav-link" href="#">Conviertete en orador</a>
+          <a class="nav-link" href="#">Comprar Tickets</a>
+        </div>
+      </div>
+    </div>
+  </nav>
+  <header>
+    <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="./img/ba1.jpg" class="d-block w-100 brillo" alt="Buenos Aires 1">
+        </div>
+        <div class="carousel-item">
+          <img src="./img/ba2.jpg" class="d-block w-100 brillo" alt="Buenos Aires 2">
+        </div>
+        <div class="carousel-item">
+          <img src="./img/ba3.jpg" class="d-block w-100 brillo" alt="Buenos Aires 3">
+        </div>
+        <div class="carousel-caption d-block w-99 h-50 d-flex flex-column aling-items-end text-end justify-content-start">
+          <h5>Conf Bs As</h5>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. <br>
+            Magni ex hic vitae. Et itaque ipsa nesciunt debitis ullam eligendi aut. <br> Reprehenderit repellat, assumenda sunt autem eaque aliquid minima magni amet! <br>  Lorem ipsum dolor sit, amet consectetur adipisicing elit. Placeat, tempora!</p>
+            <div>
+              <button type="button" class="btn btn-outline-light">Quiero ser orador</button>
+              <button type="button" class="btn btn-success">Comprar tickets</button>
+            </div>
+        </div>
+      </div>
+    </div>
+
+  </header>
+  <main>
+    <section class="container">
+      <article class="text">
+        <h6>Conoce a los</h6>
+        <h2>Oradores</h2>
+      </article>
+      <div class="row row-cols-1 row-cols-md-3 g-4">
+        <div class="col">
+          <div class="card h-100">
+            <img src="./img/steve.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <div>
+                <span class="badge text-bg-warning">JavaScript</span>
+                <span class="badge text-bg-info">React</span>
+              </div>
+              <h5 class="card-title">Steve Jobs</h5>
+              <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid autem doloribus sapiente dolorem ipsa! Temporibus delectus dicta suscipit veritatis ipsum?</p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100">
+            <img src="./img/bill.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <div>
+                <span class="badge text-bg-warning">JavaScript</span>
+                <span class="badge text-bg-info">React</span>
+              </div>
+              <h5 class="card-title">Bill Gates</h5>
+              <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium, alias sequi earum corporis natus non neque est nostrum eum necessitatibus!</p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100">
+            <img src="./img/ada.jpeg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <div>
+                <span class="badge text-bg-secondary">Negocios</span>
+                <span class="badge text-bg-danger">Startups</span>
+
+              </div>
+              <h5 class="card-title">Ada Lovelace</h5>
+              <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima temporibus beatae id ipsum, ipsa impedit recusandae et eaque atque sit!</p>
+            </div>
+
+          </div>
+        </div>
+      </div>
+        </div>
+      </div>
+    </section>
+    <section class="row mt-4">
+      <div class="col-12 col-md-6 p-0">
+        <img src="./img/honolulu.jpg" width="100%" alt="">
+      </div>
+      <div class="col-12 col-md-6 bg-dark text-white p-4 textochico">
+        <h4>Bs As Octubre</h4>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Incidunt, illo voluptatum. Aperiam sint veniam accusantium. Vero alias non, ducimus minima repellat, neque illo hic expedita voluptatum, molestiae rem veniam inventore dicta consectetur accusamus nostrum architecto?</p>
+        <div><button type="button" class="btn btn-outline-light">Conocé más</button></div>
+      </div>
+    </section>
+    <section>
+      <article class="text">
+        <h6>Conviértete en un</h6>
+        <h2>Orador</h2>
+        <p>Lorem ipsum dolor <a href="">sit amet</a> consectetur adipisicing.</p>
+      </article>
+      <section>
+        <form class="container-md">
+        <div class="row">
+          <div class="col">
+            <input type="text" class="form-control" placeholder="Nombre" aria-label="Nombre">
+          </div>
+          <div class="col">
+            <input type="text" class="form-control" placeholder="Apellido" aria-label="Apellido">
+          </div>
+        </div>
+        <div class="form-floating pt-3">
+          <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea2" style="height: 100px"></textarea>
+          <label for="floatingTextarea2">Sobre qué quieres hablar?</label>
+        </div>
+        <h6 class="textoform">Recuerda incluir un título para tu charla</h6>
+        <br>
+        <div class="d-grid gap-2">
+          <button class="btn btn-success" type="button">Enviar</button>
+        </div>
+      </section>
+    </section>
+  </form>
+
+  </main>
+  <footer class="container-fluid mt-4 text-white footerclass">
+    <div class="row align-items-center">
+      <div class="col">
+        Preguntas frecuentes
+      </div>
+      <div class="col">
+        Contáctanos
+      </div>
+      <div class="col">
+        Prensa
+      </div>
+      <div class="col">
+        Conferencias
+      </div>
+      <div class="col">
+        Términos y condiciones
+      </div>
+      <div class="col">
+        Privacidad
+      </div>
+      <div class="col">
+        Estudiantes
+      </div>
+    </div>
+  </footer>
+    <script src="./js/bootstrap.min.js"></script>
+</body>
+</html>
